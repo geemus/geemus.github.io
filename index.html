@@ -1,0 +1,23 @@
+---
+layout: default
+title: geemus
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% if post.external_url == nil %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% else %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.external_url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h1>Prominent Open Source Projects</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/geemus/excon">excon</a>: Usable, fast, simple HTTP 1.1 for Ruby.</li>
+    <li><a href="https://github.com/fog/fog">fog</a>: The Ruby cloud services library.</li>
+  </ul>
+</div>
