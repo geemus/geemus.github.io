@@ -4,5 +4,5 @@ layout: post
 title: "Heroku Platform API, Now Available in Public Beta"
 date: 2013-05-30 16:01
 comments: true
-categories: heroku
+tags: [api, heroku]
 ---

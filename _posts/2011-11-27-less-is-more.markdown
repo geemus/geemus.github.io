@@ -3,7 +3,7 @@ layout: post
 title: "Less is More"
 date: 2011-11-27 14:46
 comments: true
-categories: [community, fog, open source]
+tags: [community, fog, open source]
 ---
 
 I originally assumed that open source was simply a means of producing technology.
